@@ -1,0 +1,14 @@
+.main {
+	color : #eee;
+}
+
+
+td {
+	padding: 30px;
+	border-right: 1px solid #eee;
+}
+
+tr {
+	border-bottom:  1px solid #eee;
+}
+

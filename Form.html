@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="The HTML5 Form Exercise">
+	<meta name="author" content="SitePoint">
+	<title>
+		Sign In
+	</title>
+	
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+	<h1>Sign In Form Demo</h1>
+
+	<!-- action : URL -->
+	<!-- Method : GET -->
+
+
+	<!-- Required is HTML5 Validation -->
+
+	<form action="" method="GET">
+		<div>
+			<label for="username">Username:</label>
+			<input id="password" name="username" type="text" placeholder="User" data-required>
+
+			<label for="email">Email:</label>
+			<input id="email" name="email" type="email" placeholder="Email" data-required>
+
+			<label for="password">Password:</label>
+			<input id="password" name="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters" required>
+		</div>
+
+		<p>What do you prefer ?</p>
+		<label for="cats">Cats : </label>
+		<input id="cats" name="pet" type="radio" value="cats">
+		<label for="Dogs">Dogs : </label>
+		<input id="dogs" name="pet"  type="radio" value="dogs">
+
+		<p>What is your favourite color ?</p>
+		<select name="color" required>
+			<option value="">-- Select One --</option>
+			<option value="1">RED</option>
+			<option value="2">ORANGE</option>
+			<option value="3">GREEN</option>
+		</select>
+
+		<p>Feedback : </p>
+
+		<!-- Rows: Number of Rows -->
+		<!-- Cols: Number of Cols -->
+		<textarea name="feedback" rows="10" cols="50" required></textarea>
+		<br/>
+
+		<label>I Agree The terms and conditions</label><input type="checkbox" name="agreement">
+		<div>
+			<button>Go!</button>
+		</div>
+	</form>
+</body>
+</html>
