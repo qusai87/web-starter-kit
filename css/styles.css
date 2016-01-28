@@ -1,7 +1,15 @@
+/* The Skin for HTML*/
+/* Add Colors & Floats */
+
+/* General Rule :
+** SELECTOR {
+** 	propery: value;
+** }
+*/
+
 .main {
 	color : #eee;
 }
-
 
 td {
 	padding: 30px;
