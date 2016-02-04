@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0;
+}
+table {
+	margin: auto;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+td {
+	width: 100px;
+	height: 100px;
+
+	color: white;
+}
+
+.ver {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.hor {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+/*tr {
+	display: block;
+	border-bottom: 2px solid black;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	border-right: 2px solid black;
+}
+
+td:last-child {
+	border-right: none;
+}*/

@@ -1,0 +1,89 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+
+h4 ~ ul {
+	background: gray;
+}
+
+/*li:nth-of-type(2) {
+	color : blue;
+}
+
+li:nth-of-type(even) {
+	color : purple;
+}*/
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type*/
+
+/*li:nth-of-type(odd){
+	background: purple;
+}
+*/
+
+/* specifity */
+
+body {
+	color :red;
+}
+ul {
+	color: purple;
+}
+li {
+	color : blue;
+}
+
+
+/* power value : 11; */
+li  .highlight {
+	color: green;
+}
+
+/* power value : 30; */
+.highlight.highlight.highlight {
+	color :red;
+}
+/* power value : 20; */
+.highlight[id="special"] {
+	color :yellow;
+}
+/* power value : 110; */
+#special.highlight {
+	color :yellow;
+}
+
+/* power value : 100; */
+#special {
+	color : orange;
+}
+
+
