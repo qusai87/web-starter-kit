@@ -1,0 +1,199 @@
+/* GENERAL RULES */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color:#E7E7E7;
+    color : white;
+    font-size: 13px;
+}
+
+.container {
+    background-color: #033C0D;
+    width: 1024px;
+    margin:auto;
+}
+
+.clearfix {
+    clear: both;
+    height: 0px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #182f19;
+    height: 40px;
+    width: 100%;
+    border-bottom: 5px solid grey;
+}
+
+/* NAV */
+
+ul.nav {
+    display: inline-block;
+    float: left;
+    padding: 0 20px;
+    color : #c2c8c2;
+    font-size: 13px;
+}
+ul.nav a {
+    color : #c2c8c2;
+    text-decoration: none;
+}
+ul.nav>li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    height: 20px;
+}
+
+ul.nav>li:hover {
+    background-color: #F89828;
+    color: White;
+}
+
+ul.nav>li:hover > a {
+    color: White;
+}
+ul.nav>li:hover>ul {
+    display: block;
+}
+ul.nav li>ul{
+    
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 139px;
+    padding: 0;
+   /* background: #F5F7F7;
+    border: 1px solid #cbcbcb;*/
+    /* CSS3 */
+    border-radius: 0px;
+    /*box-shadow:inset 0px 1px 0px 0px rgba(255,255,255,1), 0px 0px 3px rgba(0,0,0,0.15);*/
+
+    -webkit-animation-duration: .1s;
+    -webkit-animation-delay: .1s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .1s;
+    -moz-animation-delay: .1s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .1s;
+    -ms-animation-delay: .1s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .1s;
+    animation-delay: .1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+      
+    top: 35px;
+    left: 0;
+    padding: 50px 10px 10px 0px;
+    background-image:url(images/sub.png);
+    background-repeat:no-repeat;
+    height:200px;
+}
+ul.nav li>ul li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+}
+ul.nav li>ul>li:hover{
+    background-color: #000;
+    color: White;
+}
+
+.lang {
+    font-size: 20px;
+    padding-right: 10px; 
+    display: inline-block;
+    float: right;
+}
+.lang a {
+    color : white;
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    top: 0;
+    z-index: 1;
+}
+
+.logo img {
+    position: absolute;
+}
+/* BANNER */
+
+.banner {
+    height: 380px;
+}
+
+/* MAIN */
+
+.main {
+    position: relative;
+    top: -25px;
+    background-image: url(images/main.png);
+    background-repeat: no-repeat;
+    padding : 20px 100px;
+}
+
+.main p.special {
+    width: 400px;
+    padding-bottom: 10px;
+}
+h1 {
+   padding : 20px 0; 
+}
+
+#details {
+    font-size: 13px;
+    padding : 10px 100px;
+}
+.item {
+    overflow: hidden;
+}
+.item img {
+    float: left;
+}
+.item .content {
+    padding-left: 80px;
+    float: left;
+    width: 500px;
+}
+
+/* PRODUCTS */
+
+#products {
+    position: relative;
+    top: -25px;
+    background-color: #CC8A1F;
+    padding: 10px;
+    
+}
+
+.cup {
+    position: absolute;
+    top: -95px;
+    right: 0;
+}
+/* FOOTER */
+
+footer {
+    position: relative;
+    top: -25px;
+    font-size: 12px;
+    background-color : #033C0D;
+    text-align: center;
+    padding: 30px;
+}
